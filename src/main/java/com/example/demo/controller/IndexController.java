@@ -11,6 +11,11 @@ public class IndexController {
     public @ResponseBody String index() {
         return "Hello, World!";
     }
+
+    @GetMapping("/test")
+    public @ResponseBody String index2() {
+        return "Hello, World2!";
+    }
 }
 
 // 주석 추가추가추가 정재호
